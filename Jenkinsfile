@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                bat "docker build -t='manikannanmarimuthu/sel-docker' ."
+                bat "docker build -t=manikannanmarimuthu/sel-docker ."
             }
         }
         stage('Push Image') {
