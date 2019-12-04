@@ -1,2 +1,2 @@
 # SeleniumDocker
-   This project has implemeneted with Docker and Jenkins Using selenium
+   This project has implemented using Docker,Jenkins and selenium
