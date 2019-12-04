@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search in Duck Duck Go">
+	<test name="TestDuck Duck Go with Java">
+		<parameter name="keyword" value="java" />
+		<classes>
+			<class name="com.duckduckgo.test.SearchPageTest" />
+		</classes>
+	</test> <!-- Test Ticket -->
+	<test name="TestDuck Duck Go with QA">
+		<parameter name="keyword" value="qa" />
+		<classes>
+			<class name="com.duckduckgo.test.SearchPageTest" />
+		</classes>
+	</test>
+</suite>
